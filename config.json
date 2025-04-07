@@ -1,0 +1,6 @@
+{
+  "repos": {
+    "example": "git@github.com:Gohlub/demo-experiment.git",
+    "skeleton": "git@github.com:hyperware-ai/app-framework-demo.git"
+  }
+}
