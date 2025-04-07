@@ -21,3 +21,6 @@ Each step should
 - where relevant, tell the other AI code generator useful files and line numbers to reference in `example-app/`
 - use full path names when referencing files in `{{APP_NAME}}/` or `example-app/`
 
+### Tests
+- Refer to `example-app/resources/llm-generated-app-guide.md` for how to create and run tests
+- Include a test plan for each step, including expected results
