@@ -29,6 +29,10 @@ mkdir -p "$PARENT_DIR" || { echo "Failed to create parent directory $PARENT_DIR"
 echo "Creating scaffold directory: $SCAFFOLD_DIR"
 mkdir "$SCAFFOLD_DIR" || { echo "Failed to create directory $SCAFFOLD_DIR"; exit 1; }
 
+# Process the base prompt file and copy it to the scaffold directory
+echo "Processing base prompt file..."
+sed "s/{{APP_NAME}}/$APP_NAME/g" "prompts/gemini/base.md" > "$SCAFFOLD_DIR/base_prompt.md" || { echo "Failed to process base prompt file"; exit 1; }
+
 # Read repository URLs from config.json
 CONFIG_FILE="config.json"
 EXAMPLE_REPO_URL=$(jq -r '.repos.example' "$CONFIG_FILE")
