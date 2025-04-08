@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # This script requires two arguments: the parent directory and the name of the application.
-# Usage: ./run.sh <PARENT_DIR> <APP_NAME>
+# Usage: ./create.sh <PARENT_DIR> <APP_NAME>
 
 if [ -z "$1" ] || [ -z "$2" ]; then
   echo "Error: Both PARENT_DIR and APP_NAME are required."
