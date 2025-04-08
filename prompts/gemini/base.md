@@ -8,11 +8,18 @@ You have access to the following 2 directories:
 
 ### Important Files
 - `example-app/resources/llm-generated-app-guide.md` : a guide to the example app, including a list of all the features and how to use them
+- Note: all files referenced in `llm-generated-app-guide.md` are in the `example-app/` directory, so you should prepend all file references with `example-app/` in order to find them.
 
 ## Instructions
-- You will be given `user_instructions`, enclosed in <user_instructions> tags.
+
+## INPUT
+- You will be given `user_instructions`, enclosed in <user_instructions> tags. 
+- You will be given the full `example-app/` codebase and `{{APP_NAME}}/` codebase.
+
+## OUTPUT
 - You will output a markdown file with an implementation plan for the user_instructions.
 - Make a step-by-step plan for how to implement the user_instructions, marking each step with `[ ]` so that it can be checked off as an LLM completes each step later.
+- Enclose your output in <implementation_plan> tags, inside a code block with language `xml`.
 
 ### Instruction Step Format
 Each step should
