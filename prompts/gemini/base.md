@@ -31,3 +31,7 @@ Each step should
 ### Tests
 - Refer to `example-app/resources/llm-generated-app-guide.md` for how to create and run tests
 - Include a test plan for each step, including expected results
+
+<user_instructions>
+
+</user_instructions>
