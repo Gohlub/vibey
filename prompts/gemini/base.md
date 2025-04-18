@@ -7,8 +7,8 @@ You have access to the following 2 directories:
 - `{{APP_NAME}}/`: the Hyperware app you are currently developing
 
 ### Important Files
-- `example-app/resources/llm-generated-app-guide.md` : a guide to the example app, including a list of all the features and how to use them
-- Note: all files referenced in `llm-generated-app-guide.md` are in the `example-app/` directory, so you should prepend all file references with `example-app/` in order to find them.
+- `example-app/resources/app-framework-guide.md` : a guide to the example app, including a list of all the features and how to use them
+- Note: all files referenced in `app-framework-guide.md` are in the `example-app/` directory, so you should prepend all file references with `example-app/` in order to find them.
 
 ## Instructions
 

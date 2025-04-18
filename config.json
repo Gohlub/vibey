@@ -1,6 +1,6 @@
 {
   "repos": {
-    "example": "git@github.com:Gohlub/demo-experiment.git",
-    "skeleton": "git@github.com:hyperware-ai/app-framework-demo.git"
+    "example": "https://github.com/Gohlub/demo-experiment.git",
+    "skeleton": "https://github.com/Gohlub/hyperprocess-template.git"
   }
 }
